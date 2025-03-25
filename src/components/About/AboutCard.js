@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { ImPlay2, ImPlay3, ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,33 +8,30 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+           ¡Hola a todos! Soy <span className="purple">Ricardo Leonel GH. </span>
+            de <span className="purple"> México.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            Actualmente trabajo como desarrollador de software.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Complete una Ingeniería en Informática y certificado Meta Front-End Developer Professional Certificate
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Además de programar, algunas otras actividades que me encanta hacer son:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPlay3 /> Jugar videojuegos
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+               <ImPlay3 /> Pasar tiempo con mi familia
             </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
+
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          Esforzarse por crear cosas que marquen la diferencia!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">RD</footer>
         </blockquote>
       </Card.Body>
     </Card>
