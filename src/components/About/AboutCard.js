@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             Actualmente trabajo como desarrollador de software.
             <br />
-            Complete una Ingeniería en Informática y certificado Meta Front-End Developer Professional Certificate
+            Complete una Ingeniería en Informática y certificado Meta Front-End Developer Profesional Certificate
             <br />
             <br />
             Además de programar, algunas otras actividades que me encanta hacer son:
