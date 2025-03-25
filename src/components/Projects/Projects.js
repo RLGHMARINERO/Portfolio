@@ -21,7 +21,7 @@ function Projects() {
           Mis recientes <strong className="purple">Trabajos </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Aquí hay algunos proyectos en los que he trabajado recientementes.
+          Aquí hay algunos proyectos en los que he trabajado recientemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
