@@ -4,6 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import marinero from "../../Assets/Projects/marinero.png";
+import marineroApp from "../../Assets/Projects/appmari.png";
+import psApp from "../../Assets/Projects/peso.png";
+
 import rsm from "../../Assets/Projects/RSM.png";
 import mcc from "../../Assets/Projects/mcc.png";
 import rise from "../../Assets/Projects/rise.png";
@@ -18,7 +21,7 @@ function Projects() {
           Mis recientes <strong className="purple">Trabajos </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Aquí hay algunos proyectos en los que he trabajado recientemente.
+          Aquí hay algunos proyectos en los que he trabajado recientementes.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -58,6 +61,24 @@ function Projects() {
               title="Marinero.mx"
               description="Plataforma para la gestion de renta de botes y yates, con la opción de reservar servicios de catering y entretenimiento para eventos especiales."
               demoLink="https://marinero.mx/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={marineroApp}
+              isBlog={false}
+              title="App marinero.mx"
+              description="Aplicación móvil para la gestión de renta de botes y yates, con la opción de reservar servicios de catering y entretenimiento para eventos especiales."
+              demoLink="https://play.google.com/store/apps/details?id=com.marinero.mx"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={psApp}
+              isBlog={false}
+              title="App peso facil"
+              description="Aplicación móvil para el control de gastos e ingresos, con la opción de registrar transacciones y visualizar reportes de manera sencilla y eficiente."
+              demoLink="https://play.google.com/store/apps/details?id=com.pesofacil"
             />
           </Col>
           <Col md={4} className="project-card">
