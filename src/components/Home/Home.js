@@ -39,6 +39,7 @@ function Home() {
               />
             </Col>
           </Row>
+
         </Container>
       </Container>
       <Home2 />

@@ -72,16 +72,7 @@ function Home2() {
                   <AiFillFacebook />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://wa.me/529995313954"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiOutlineWhatsApp />
-                </a>
-              </li>
+             
             </ul>
             <p>
              No dudes en <span className="purple">contactarme </span>

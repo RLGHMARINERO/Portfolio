@@ -43,16 +43,7 @@ function Footer() {
                 <AiFillFacebook />
               </a>
             </li>
-            <li className="social-icons">
-              <a
-                href="https://wa.me/529995313954"
-                target="_blank"
-                rel="noreferrer"
-                style={{ color: "white" }}
-              >
-                <AiOutlineWhatsApp />
-              </a>
-            </li>
+           
           </ul>
         </Col>
       </Row>
