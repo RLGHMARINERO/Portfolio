@@ -6,7 +6,7 @@ import Particle from "../Particle";
 import marinero from "../../Assets/Projects/marinero.png";
 import marineroApp from "../../Assets/Projects/appmari.png";
 import psApp from "../../Assets/Projects/peso.png";
-
+import psHom from "../../Assets/Projects/homlunch.png";
 import rsm from "../../Assets/Projects/RSM.png";
 import mcc from "../../Assets/Projects/mcc.png";
 import rise from "../../Assets/Projects/rise.png";
@@ -79,6 +79,15 @@ function Projects() {
               title="App peso facil"
               description="Aplicación móvil para el control de gastos e ingresos, con la opción de registrar transacciones y visualizar reportes de manera sencilla y eficiente."
               demoLink="https://play.google.com/store/apps/details?id=com.pesofacil"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={psHom}
+              isBlog={false}
+              title="Homlunch"
+              description="Aplicación web para cocinas, avanzada y diseñada para la gestión y comercialización de alimentos preparados, operando bajo un modelo multinivel."
+              demoLink="https://homlunch.com/"
             />
           </Col>
           <Col md={4} className="project-card">
