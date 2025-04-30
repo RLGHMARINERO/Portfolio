@@ -26,7 +26,7 @@ function Home2() {
               <br />
               <br />Tengo experiencia
               <i>
-                <b className="purple"> Vue.js, Nuxt.js, Node.js, Express, Laravel, Angular,React, React Native, Flutter, Php, Python, Electron.js</b>
+                <b className="purple"> Vue.js, Nuxt.js, Node.js, Express, Laravel, Angular, React, React Native, Flutter, Php, Python, Electron.js</b>
               </i>
               <br />
               <br />
