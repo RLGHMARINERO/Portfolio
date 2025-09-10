@@ -9,6 +9,7 @@ import psApp from "../../Assets/Projects/peso.png";
 import psHom from "../../Assets/Projects/homlunch.png";
 import rsm from "../../Assets/Projects/RSM.png";
 import mcc from "../../Assets/Projects/mcc.png";
+import gg from "../../Assets/Projects/gg.png";
 import rise from "../../Assets/Projects/rise.png";
 import logo from "../../Assets/logo.png";
 
@@ -88,6 +89,15 @@ function Projects() {
               title="Homlunch"
               description="Aplicación web para cocinas, avanzada y diseñada para la gestión y comercialización de alimentos preparados, operando bajo un modelo multinivel."
               demoLink="https://homlunch.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gg}
+              isBlog={false}
+              title="Guaria Wallet"
+              description="Aplicación móvil de criptomonedas que permite comprar, vender y cambiar activos digitales de forma rápida y segura.."
+              demoLink="https://play.google.com/store/apps/details?id=com.guariawallet"
             />
           </Col>
           <Col md={4} className="project-card">
